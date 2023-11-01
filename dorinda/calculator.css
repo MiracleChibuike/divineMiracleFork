@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    background-color: blue;
+    
+}
+.screen{
+    background-color: rgb(169, 159, 159);
+}
+.seperate{
+    width: 95px;
+    height: 80px;
+    background-color: aquamarine;
+    border: 1px solid black;
+    border-radius:20px ;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.products{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 8px;
+    width: 50%;
+    height: 50%;
+}
+.long{
+    background-color: yellow;
+    width: 70px;
+    height: 200px;
+}

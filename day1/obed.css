@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.boss{
+    background-color: blue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.manager{
+    height: 80%;
+    width: 80%;
+    background-color: bisque;
+    display: flex;
+    
+    align-items: end;
+}
+.director{
+    width: 50%;
+    height: 95%;
+    background-color: rgb(253, 255, 255);
+}
+.asistant{
+width: 50%;
+height: 95%;
+background-color: rgb(253, 255, 255);
+}
+.cart{
+    display: flex;
+    
+}
+.hr{
+    position: absolute;
+    width: 80px;
+    left: 170px;
+    top: 10px;
+}
+.moreinfo{
+    position: absolute;
+    bottom: 200px;
+}
+.mother{
+    position: absolute;
+    bottom: 150px;
+}
+.circle{
+    display: flex;
+    
+}
+.circle div{
+    border-radius: 50%;
+margin-right: 10px;
+}
+.one{
+width: 10px;
+height: 10px;
+background-color: red;
+
+
+}
+.two{
+width: 10px;
+height: 10px;
+background-color: yellow;
+}
+.three{
+width: 10px;
+height: 10px;
+background-color: blue;
+
+
+
+}
+.four{
+width: 10px;
+height: 10px;
+background-color: rgb(83, 83, 60);
+
+}
+.typeandprice{
+    display: flex;
+    position: absolute;
+    top: 230px;
+}
+.nonsport{
+    display: flex;
+}
+.cheap{
+    display: flex;
+    position: absolute;
+    bottom: 390px;
+}
+.para{
+    position: absolute;
+    bottom: 250px;
+}
+.nonsport{
+    position: absolute;
+    top: 270px;
+}
+.sport{
+position: absolute;
+left: 150px;
+}
+.non{
+position: absolute;
+left: 150px;
+}
+.obed div{
+    border-radius: 12px;
+    border: 4px;
+}
+.o{
+width: 10px;
+height: 10px;
+background-color: blue;
+
+}
+.b{
+width: 13px;
+height: 13px;
+background-color: red;
+}
+.e{
+width: 10px;
+
+height: 10px;
+background-color: yellow;
+}
+.d{
+width: 10px;
+height: 10px;
+background-color: rgb(41, 52, 62);
+}
+.obed{
+    display: flex;
+}
+
+.header{
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+}

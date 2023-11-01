@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    background-color: rgb(255,255,255);
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.icon{
+    position: absolute;
+    top: 314px;
+    left: 600px;
+    display: inline;
+    justify-content: space-between;
+}
+.manager{
+    background-color: rgb(255, 255, 255);
+    width: 97%;
+    height: 95%;
+}
+.list li{
+    list-style-type: none;
+    display: inline-block;
+padding: 5px;
+margin: 0 5px;
+}
+.list li a{
+    color: antiquewhite;
+    background-color: blue;
+    padding: 0 5px;
+    margin: 0 5px;
+}
+.header{
+    align-items: end;
+    justify-content: end;
+    display: flex;
+}
+.google{
+    position: absolute;
+    top: 160px;
+    left: 640px;
+    font-weight: 900;
+    font-size: 100px;
+}
+.search{
+    position: absolute;
+    top: 300px;
+    left: 510px;
+    width: 600px;
+    height: 40px;
+    border-radius: 20px;
+}
+.two{
+    position: absolute;
+    top: 360px;
+    left: 700px;
+}
+.one{
+    color: black;
+    background-color: rgb(219, 219, 189);
+    margin: 0 15px;
+}
+.three{
+    background-color: rgb(219,219,189);
+    color: black;
+}
+.four{
+    position: absolute;
+    top: 400px;
+    left: 700px;
+    display: flex;
+}
+.four li{
+display: inline-block;
+margin: 0 3px;
+}
+.footer{
+background-color: rgb(217, 213, 213);
+    transform: translateY(660px);
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+}
+.flex{
+    display: flex;
+    
+}
+.footer ul{
+    display: flex;
+    
+}
+.footer ul li{
+    list-style-type: none;
+    margin: 0 10px;
+}
+.first{
+color: rgb(51, 51, 251);
+}
+.second{
+color: red;
+}
+.third{
+color: rgb(249, 153, 9);
+}
+.fourth{
+color: rgb(51, 51, 251);
+}
+.fift{
+color: rgb(49, 164, 49);
+}
+.sixt{
+color: red;
+}

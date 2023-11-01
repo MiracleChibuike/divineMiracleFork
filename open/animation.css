@@ -1,0 +1,87 @@
+.div1{
+    animation-name: color;
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+@keyframes color{
+from{
+background-color: black;
+width: 25px;
+height: 34px;
+}
+to{
+background-color: red;
+width: 300px;
+height: 200px;
+}
+}
+.div2{
+    animation-name: bounce;
+
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+@keyframes bounce{
+    0%{
+        transform: translateY(0);
+    }
+    25%{
+        transform: translateY(-30px);
+    }
+    50%{
+        transform: translateY(0);
+    }
+    75%{
+        transform: translateY(40px);
+
+    }
+    100%{
+        transform: translateY(0);
+
+    }
+
+}
+
+.div3{
+    animation-name: bounce;
+background-image:url('chair.jpg') ;
+background-position: center;
+background-size: cover;
+    height: 100px;
+    width: 100px;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+@keyframes bounce{
+    0%{
+        transform: translateY(0);
+    }
+    25%{
+        transform: translateY(-30px);
+    }
+    50%{
+        transform: translateY(0);
+    }
+    75%{
+        transform: translateY(40px);
+
+    }
+    100%{
+        transform: translateY(0);
+
+    }
+
+}
+
